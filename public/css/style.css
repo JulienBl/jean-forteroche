@@ -1,0 +1,384 @@
+#content{
+    background-color: #4A515B;
+}
+h2,
+h3,
+h4,
+label,
+textarea,
+tr,
+td,
+p,
+a{
+    color: snow;
+}
+
+a{
+    font-weight: 500;
+}
+
+a:hover{
+    color: snow;
+    font-weight: bold;
+}
+h4{
+    text-decoration: underline;
+}
+
+/* HEADER */
+header a{
+    text-decoration: none;
+    color: snow ;
+}
+#image-header {
+    background-image: url(../img/alaska.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40vh;
+    margin-bottom: 300px;
+
+}
+
+#image-header #position-fixed{
+    position: fixed;
+    z-index: 9999;
+   background-color: rgba(0,0,0,0.5);
+   width: 100vw;
+
+}
+
+
+#image-header #menu .jean-forteroche img{
+     width: 17%;
+     float: left;
+ }
+ #image-header #menu .jean-forteroche p{   
+   color: white;
+   text-decoration: underline dotted;
+   font-weight: bold;
+   font-size: 35px;
+   margin-top: 50px;
+   margin-left: 45%;
+
+}
+
+
+ #image-header #menu .placement-menu{
+
+    margin-top: -8vh;
+
+ }
+
+ #image-header #menu .dropdown-menu{
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 47vw;
+
+ }
+ #image-header #menu .dropdown-menu a{
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+
+
+ }
+
+ #image-header #menu .placement-menu a{
+
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-transform: uppercase;
+
+ }
+
+ #image-header #menu .placement-menu a:hover{
+
+    color: black;
+    background-color: white; 
+    font-weight: initial;   
+
+ }
+
+ .navbar-light .navbar-toggler {    
+    background-color: snow;
+}
+
+
+
+ /*pages*/
+ .container-fluid{
+     padding-left: 0!important;
+     padding-right: 0!important;
+ }
+ body{
+     overflow-x: hidden;
+ }
+
+ h1{
+     position: absolute;
+     color: white;
+     top: 50%;
+     margin-left: 10%;
+ }
+ .message{
+    position: absolute;
+    color: white;
+    top: 58%;
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: bold;  
+ }
+li{
+    list-style: none;
+}
+ 
+
+
+ /* FOOTER */
+
+ footer{
+     margin-top: 50px;
+     color: white;
+    background-color: rgba(0,0,0,0.5);
+ }
+
+ footer a{
+     color: snow;
+ }
+
+ footer a:hover{
+     text-decoration: underline;
+     color: snow;
+ }
+
+                            /* ANIMATION NEIGE */
+
+ @import url('https://fonts.googleapis.com/css?family=Corben:700');
+
+
+
+ footer .hero { 
+    padding: 50px 0;  
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;   
+}
+
+footer .hero:__content {
+    position: relative;
+    align-self: center;
+    padding: 3rem 0;
+}
+
+footer .snow {
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+footer .snow .svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+footer #snow-top-layer {
+    will-change: transform;
+    transform: translateY(-768px);
+    animation: fall 22.5s infinite linear;
+}
+
+footer #snow-bottom-layer {
+    will-change: transform;
+    transform: translateY(-768px);
+    animation: fall 45s infinite linear;
+}
+
+@keyframes fall {
+    
+    100% {
+        transform: translateY(0);
+    }
+    
+}
+
+
+
+/* HOME + single */
+
+#ajout-article{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+.nouvelle-article{
+    padding: 10px;
+    border: solid 1px beige;
+    border-radius: 3px;
+}
+
+ .nouvelle-article h2{
+    
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+ .nouvelle-article h2 a{
+    
+    list-style: none;
+    color: snow;
+}
+ 
+ .nouvelle-article .date-article{  
+    font-weight: 300;
+    font-size: 12px;
+    color: snow;
+}
+
+
+/*Ajout Commentaire*/
+
+.ajout-commentaire {
+    
+   margin-top: 35px;
+   margin-bottom: 35px;
+}
+
+
+#submit{
+    
+    background-color: transparent;
+    width: 24%;
+    border: solid 1px snow;
+    color: snow;
+    cursor: pointer;
+    margin-top: 25px;        
+}
+
+#submit:hover{
+    
+    background-color: snow;
+    width: 24%;
+    border: solid 1px #4A515B;
+    color: #4A515B;
+}
+
+/*Commentaires*/
+#comments .commentaires{
+    border:  1px solid snow;
+    border-radius: 5px;
+}
+#comments .commentaires .date-commentaires{
+    font-size: 12px;
+}
+
+/*profil*/
+#password{
+    width: 24%;
+}
+
+/*Administration*/
+#administration h2{
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+
+#administration .titre{
+
+    padding: 20px 0;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: solid 1px beige;
+
+}
+#administration .separation{
+
+   border-bottom: 1px dashed  snow;;
+
+}
+
+#administration .date{
+
+    font-size: 12px;
+
+}
+#administration td{
+
+    width: 15%;
+
+}
+
+/*ajout d'article*/
+
+#ajout-article .title, #ajout-article .auteur{
+    width: 24%;
+
+}
+
+/*Device*/
+@media (max-width:767px){
+
+
+    #image-header #menu .jean-forteroche p {       
+        font-size: 30px;
+        margin-top: 18px;
+        margin-left: 26%;
+    }
+
+    .navbar-light .navbar-toggler {        
+        margin-left: 52vh;
+    }
+
+}
+
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+    
+    #administration td {
+        width: 100%;
+    }
+	
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 5%; 
+	}
+	
+	td:before { 
+	
+		position: absolute;		
+		top: 6px;
+		left: 6px;		
+		padding-right: 10px; 
+		white-space: nowrap;
+	}	
+	
+}
