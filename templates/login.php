@@ -9,7 +9,7 @@
 
 
 <div class="container">
-    <form method="post" action="../index.php?route=login">
+    <form method="post" action="index.php?route=login">
         <label for="pseudo">Pseudo</label><br>
         <input type="text" id="pseudo" name="pseudo" value="<?= isset($post) ? htmlspecialchars($post->get('pseudo')): ''; ?>"><br>
         <label for="password">Mot de passe</label><br>

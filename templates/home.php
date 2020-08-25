@@ -25,7 +25,7 @@
     {
         ?>
         <div class="nouvelle-article">
-            <h2><a href="../index.php?route=article&articleId=<?= htmlspecialchars($article->getId());?>"><?= htmlspecialchars($article->getTitle());?></a></h2>
+            <h2><a href="index.php?route=article&articleId=<?= htmlspecialchars($article->getId());?>"><?= htmlspecialchars($article->getTitle());?></a></h2>
             <p class="page-article"><?= substr(htmlspecialchars($article->getContent()), 0, 200);?></p>
             <p class="auteur-article"><i><?= htmlspecialchars($article->getAuthor());?></i></p>
             <p class="date-article">Créé le : <?= htmlspecialchars($article->getCreatedAt());?></p>

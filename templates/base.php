@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8" />
         <title>Jean Forteroche</title>    
+        <base href="http://localhost/blog-ecrivain-projet/public/"><!-- LOCAL-->
+        <!--<base href="http://jeanforteroche.dgwww.fr/"> public-->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Blog écrivain" />
        
@@ -10,6 +12,7 @@
         
 </head>
 <body>
+    
     <div id="content">
         <?= $content ?>
     </div>

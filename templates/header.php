@@ -1,17 +1,9 @@
     <div id="image-header">
-
-
-        <div id="position-fixed">
-
-            <header class="container">        
-                   
-            </header>
-
-                <div class="container" id="menu">
-                     
+        <div id="position-fixed"> 
+                <div class="container" id="menu">                     
                     <div class="row">
                         <div class="clo-12 jean-forteroche">
-                            <a href="../index.php"><img src="../img/jean.jpg" alt="Jean " id="jean"></a>
+                            <a href="index.php"><img src="img/jean.jpg" alt="Jean " id="jean"></a>
                             <p>
                             Jean Forteroche
                             </p>
@@ -25,7 +17,7 @@
                                 <div class="collapse navbar-collapse justify-content-end" id="menu-navbar">
                                     <ul class="navbar-nav">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="../index.php"> Accueil</a>
+                                            <a class="nav-link" href="index.php"> Accueil</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -35,17 +27,17 @@
                                             <?php
                                               if ($this->session->get('pseudo')) {
                                                     ?>
-                                                    <a href="../index.php?route=logout">Déconnexion</a>
-                                                    <a href="../index.php?route=profile">Profil</a>
+                                                    <a href="index.php?route=logout">Déconnexion</a>
+                                                    <a href="index.php?route=profile">Profil</a>
                                                     <?php if($this->session->get('role') === 'admin') { ?>
-                                                        <a href="../index.php?route=administration">Administration</a>
+                                                        <a href="index.php?route=administration">Administration</a>
                                                     <?php } ?>
-                                                    <a href="../index.php?route=addArticle">Nouvel article</a>
+                                                    <a href="index.php?route=addArticle">Nouvel article</a>
                                                     <?php
                                                 } else {
                                                     ?>
-                                                    <a href="../index.php?route=register">Inscription</a>
-                                                    <a href="../index.php?route=login">Connexion</a>
+                                                    <a href="index.php?route=register">Inscription</a>
+                                                    <a href="index.php?route=login">Connexion</a>
                                                     <?php
                                                 }
                                                 ?>                                     

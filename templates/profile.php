@@ -14,10 +14,10 @@
 
     <div class="row">
         <div class="col-6">
-            <a href="../index.php?route=updatePassword">Modifier son mot de passe</a>
+            <a href="index.php?route=updatePassword">Modifier son mot de passe</a>
         </div>
         <div class="col-6">
-             <a href="../index.php?route=deleteAccount">Supprimer mon compte</a>
+             <a href="index.php?route=deleteAccount">Supprimer mon compte</a>
         </div>
     </div>   
 </div>
