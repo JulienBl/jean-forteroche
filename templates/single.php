@@ -40,8 +40,7 @@
             <p><a href="index.php?route=flagComment&commentId=<?= $comment->getId(); ?>">Signaler le commentaire</a></p>
             <?php
         }
-        ?>
-        <p><a href="index.php?route=deleteComment&commentId=<?= $comment->getId(); ?>">Supprimer le commentaire</a></p>
+        ?>       
         <br>
         <?php
     }
