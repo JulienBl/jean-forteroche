@@ -14,7 +14,7 @@ $submit = $route === 'addArticle' ? 'Envoyer' : 'Mettre à jour';
         <input class="title" type="text" id="title" name="title" value="<?= isset($post) ? htmlspecialchars($post->get('title')): ''; ?>"><br>
         <?= isset($errors['title']) ? $errors['title'] : ''; ?>
         <label for="content">Contenu</label><br>
-        <textarea  rows="15" cols="150" id="content" name="content"><?= isset($post) ? htmlspecialchars($post->get('content')): ''; ?></textarea><br>
+        <textarea  rows="15" cols="50" id="content" name="content"><?= isset($post) ? htmlspecialchars($post->get('content')): ''; ?></textarea><br>
         <?= isset($errors['content']) ? $errors['content'] : ''; ?>
         <label for="author">Auteur</label><br>
         <input class="auteur" type="text" id="author" name="author" value="<?= isset($post) ? htmlspecialchars($post->get('author')): ''; ?>"><br>
